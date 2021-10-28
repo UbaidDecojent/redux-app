@@ -14,7 +14,7 @@ const ShopingCart = () => {
                 </div>
                 <div className="discription">
                     <span>Iphone x</span>
-                    <span>$400</span>
+                    <span>$300</span>
                 </div>
                 <div className="btn">
                     <Button type="info" icon={<ShoppingCartOutlined />} style={{ width: "100%" }} onClick={()=>dispatch(addToCart())}>Add to Cart</Button>
